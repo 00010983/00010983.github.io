@@ -47,7 +47,7 @@ h3 {
 	position: absolute;
 	width: 100%;
 	background-color: #fffef7;
-	height: 660vh;
+	height: 800vh;
 }
 
 .background_main_limit {
@@ -815,7 +815,7 @@ footer {
 
 footer>div {
 	display: flex;
-	width: 90%;
+	width: 80%;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin: auto;
@@ -1724,7 +1724,7 @@ textarea:focus-visible {
 		display: none;
 	}
 	.background_main {
-		height: 1000vh;
+		height: 800vh;
 	}
 }
 
@@ -1741,6 +1741,10 @@ textarea:focus-visible {
 	}
 	.footer_right {
 		width: 40%;
+	}
+
+	.background_main {
+		height: 780vh;
 	}
 }
 
@@ -1831,13 +1835,13 @@ textarea:focus-visible {
 		height: 200px;
 	}
 	.background_main {
-		height: 880vh;
+		height: 650vh;
 	}
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
 	.background_main {
-		height: 750vh;
+		height: 640vh;
 	}
 	* {
 		font-size: 7px;
@@ -1950,7 +1954,7 @@ textarea:focus-visible {
 		height: 325px;
 	}
 	.footer_left_text>h2 {
-		font-size: 3.5rem;
+		font-size: 4.2rem;
 		margin-bottom: 10px;
 	}
 	.best_block_three {
@@ -1972,8 +1976,8 @@ textarea:focus-visible {
 
 @media (min-width: 651px) and (max-width: 999px) {
 	.background_main {
-		height: 720vh;
-	}
+		height: 680vh;
+	} 
 	.rainbow_section {
 		height: 61px;
 	}
@@ -2087,8 +2091,9 @@ textarea:focus-visible {
 	.card:nth-child(1) {
 		display: none;
 	}
+
 	.footer_left_text>h2 {
-		font-size: 2.5rem;
+		font-size: 4rem;
 	}
 	.footer_right_text_hide {
 		display: none;
@@ -2130,7 +2135,7 @@ textarea:focus-visible {
 
 @media (min-width: 651px) and (max-width: 870px) {
 	.background_main {
-		height: 720vh;
+		height: 680vh;
 	}
 	.card:nth-child(1),
 	.card:nth-child(2) {
@@ -2342,11 +2347,15 @@ textarea:focus-visible {
 		width: 150px;
 		height: 200px;
 	}
+
+	.footer_right {
+		display: none;
+	}
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
 	.background_main {
-		height: 800vh;
+		height: 570vh;
 	}
 	.card:nth-child(1),
 	.card:nth-child(2) {
@@ -2391,6 +2400,10 @@ textarea:focus-visible {
 	}
 	.input_email {
 		width: 150px;
+	}
+
+	.footer_right {
+		display: none;
 	}
 }
 
@@ -2529,6 +2542,10 @@ textarea:focus-visible {
 		height: 40px;
 		width: 100px;
 	}
+
+	.footer_right {
+		display: none;
+	}
 }
 
 @media (min-width: 0px) and (max-width: 280px) {
@@ -2627,6 +2644,10 @@ textarea:focus-visible {
 	}
 	.receive_newsletter_right>div {
 		flex-direction: column;
+	}
+
+	.footer_right {
+		display: none;
 	}
 }
 
