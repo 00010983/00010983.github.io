@@ -339,6 +339,7 @@ input[type="date"] {
 
 .exit_passenger_counter>div {
 	display: none;
+	cursor: pointer;
 }
 
 .passenger_count>div>p {
